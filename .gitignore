@@ -1,0 +1,6 @@
+.env
+data/*.db
+data/*.db-journal
+node_modules/
+*.log
+.DS_Store

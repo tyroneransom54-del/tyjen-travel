@@ -1,0 +1,12 @@
+{
+  "name": "TyJen Travel",
+  "short_name": "TyJen Travel",
+  "description": "Your adventure awaits. Flights, stays, packages, and cruises, with expert independent agent support.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfaf6",
+  "theme_color": "#0b5b62",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
