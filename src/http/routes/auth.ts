@@ -34,6 +34,7 @@ export function registerAuthRoutes(router: Router) {
               <button class="btn btn--primary" type="submit">Sign in</button>
             </form>
             <p class="auth-alt">No account? <a href="/register">Create one</a></p>
+            ${config.isProduction ? "" : html`
             <details class="demo-creds">
               <summary>Demo login credentials</summary>
               <ul>
@@ -43,6 +44,7 @@ export function registerAuthRoutes(router: Router) {
                 <li><strong>Traveler:</strong> jordan.traveler@example.com / TravelerDemo123!</li>
               </ul>
             </details>
+            `}
           </div>
         `,
       ),
